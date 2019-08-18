@@ -1,0 +1,3 @@
+/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles/TareaExtraclaseI.dir
+/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles/edit_cache.dir

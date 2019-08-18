@@ -1,0 +1,4 @@
+/home/victoria/Downloads/clion-2019.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/victoria/CLionProjects/TareaExtraclaseI
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug
