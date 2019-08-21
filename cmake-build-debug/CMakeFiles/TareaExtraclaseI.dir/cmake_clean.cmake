@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TareaExtraclaseI.dir/server.cpp.o"
+  "CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o"
+  "CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o"
+  "CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o"
   "TareaExtraclaseI.pdb"
   "TareaExtraclaseI"
 )

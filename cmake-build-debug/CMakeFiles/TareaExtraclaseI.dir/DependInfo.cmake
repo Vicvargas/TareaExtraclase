@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/victoria/CLionProjects/TareaExtraclaseI/server.cpp" "/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles/TareaExtraclaseI.dir/server.cpp.o"
+  "/home/victoria/CLionProjects/TareaExtraclaseI/lista.cpp" "/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o"
+  "/home/victoria/CLionProjects/TareaExtraclaseI/nodo.cpp" "/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o"
+  "/home/victoria/CLionProjects/TareaExtraclaseI/socket-server.cpp" "/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

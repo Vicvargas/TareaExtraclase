@@ -84,7 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/server.cpp">
+		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/abb.h">
+			<Option target="TareaExtraclaseI"/>
+		</Unit>
+		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/lista.cpp">
+			<Option target="TareaExtraclaseI"/>
+		</Unit>
+		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/lista.h">
+			<Option target="TareaExtraclaseI"/>
+		</Unit>
+		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/nodo.cpp">
+			<Option target="TareaExtraclaseI"/>
+		</Unit>
+		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/nodo.h">
+			<Option target="TareaExtraclaseI"/>
+		</Unit>
+		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/socket-server.cpp">
 			<Option target="TareaExtraclaseI"/>
 		</Unit>
 		<Unit filename="/home/victoria/CLionProjects/TareaExtraclaseI/CMakeLists.txt">

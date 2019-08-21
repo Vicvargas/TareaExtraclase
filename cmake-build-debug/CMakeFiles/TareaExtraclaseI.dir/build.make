@@ -57,30 +57,60 @@ include CMakeFiles/TareaExtraclaseI.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TareaExtraclaseI.dir/flags.make
 
-CMakeFiles/TareaExtraclaseI.dir/server.cpp.o: CMakeFiles/TareaExtraclaseI.dir/flags.make
-CMakeFiles/TareaExtraclaseI.dir/server.cpp.o: ../server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TareaExtraclaseI.dir/server.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaExtraclaseI.dir/server.cpp.o -c /home/victoria/CLionProjects/TareaExtraclaseI/server.cpp
+CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o: CMakeFiles/TareaExtraclaseI.dir/flags.make
+CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o: ../socket-server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o -c /home/victoria/CLionProjects/TareaExtraclaseI/socket-server.cpp
 
-CMakeFiles/TareaExtraclaseI.dir/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaExtraclaseI.dir/server.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victoria/CLionProjects/TareaExtraclaseI/server.cpp > CMakeFiles/TareaExtraclaseI.dir/server.cpp.i
+CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victoria/CLionProjects/TareaExtraclaseI/socket-server.cpp > CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.i
 
-CMakeFiles/TareaExtraclaseI.dir/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaExtraclaseI.dir/server.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victoria/CLionProjects/TareaExtraclaseI/server.cpp -o CMakeFiles/TareaExtraclaseI.dir/server.cpp.s
+CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victoria/CLionProjects/TareaExtraclaseI/socket-server.cpp -o CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.s
+
+CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o: CMakeFiles/TareaExtraclaseI.dir/flags.make
+CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o: ../lista.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o -c /home/victoria/CLionProjects/TareaExtraclaseI/lista.cpp
+
+CMakeFiles/TareaExtraclaseI.dir/lista.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaExtraclaseI.dir/lista.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victoria/CLionProjects/TareaExtraclaseI/lista.cpp > CMakeFiles/TareaExtraclaseI.dir/lista.cpp.i
+
+CMakeFiles/TareaExtraclaseI.dir/lista.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaExtraclaseI.dir/lista.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victoria/CLionProjects/TareaExtraclaseI/lista.cpp -o CMakeFiles/TareaExtraclaseI.dir/lista.cpp.s
+
+CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o: CMakeFiles/TareaExtraclaseI.dir/flags.make
+CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o: ../nodo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o -c /home/victoria/CLionProjects/TareaExtraclaseI/nodo.cpp
+
+CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victoria/CLionProjects/TareaExtraclaseI/nodo.cpp > CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.i
+
+CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victoria/CLionProjects/TareaExtraclaseI/nodo.cpp -o CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.s
 
 # Object files for target TareaExtraclaseI
 TareaExtraclaseI_OBJECTS = \
-"CMakeFiles/TareaExtraclaseI.dir/server.cpp.o"
+"CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o" \
+"CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o" \
+"CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o"
 
 # External object files for target TareaExtraclaseI
 TareaExtraclaseI_EXTERNAL_OBJECTS =
 
-TareaExtraclaseI: CMakeFiles/TareaExtraclaseI.dir/server.cpp.o
+TareaExtraclaseI: CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o
+TareaExtraclaseI: CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o
+TareaExtraclaseI: CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o
 TareaExtraclaseI: CMakeFiles/TareaExtraclaseI.dir/build.make
 TareaExtraclaseI: CMakeFiles/TareaExtraclaseI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TareaExtraclaseI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victoria/CLionProjects/TareaExtraclaseI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TareaExtraclaseI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TareaExtraclaseI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

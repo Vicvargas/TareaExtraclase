@@ -123,32 +123,86 @@ TareaExtraclaseI/fast:
 	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/build
 .PHONY : TareaExtraclaseI/fast
 
-server.o: server.cpp.o
+lista.o: lista.cpp.o
 
-.PHONY : server.o
+.PHONY : lista.o
 
 # target to build an object file
-server.cpp.o:
-	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/server.cpp.o
-.PHONY : server.cpp.o
+lista.cpp.o:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o
+.PHONY : lista.cpp.o
 
-server.i: server.cpp.i
+lista.i: lista.cpp.i
 
-.PHONY : server.i
+.PHONY : lista.i
 
 # target to preprocess a source file
-server.cpp.i:
-	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/server.cpp.i
-.PHONY : server.cpp.i
+lista.cpp.i:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/lista.cpp.i
+.PHONY : lista.cpp.i
 
-server.s: server.cpp.s
+lista.s: lista.cpp.s
 
-.PHONY : server.s
+.PHONY : lista.s
 
 # target to generate assembly for a file
-server.cpp.s:
-	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/server.cpp.s
-.PHONY : server.cpp.s
+lista.cpp.s:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/lista.cpp.s
+.PHONY : lista.cpp.s
+
+nodo.o: nodo.cpp.o
+
+.PHONY : nodo.o
+
+# target to build an object file
+nodo.cpp.o:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o
+.PHONY : nodo.cpp.o
+
+nodo.i: nodo.cpp.i
+
+.PHONY : nodo.i
+
+# target to preprocess a source file
+nodo.cpp.i:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.i
+.PHONY : nodo.cpp.i
+
+nodo.s: nodo.cpp.s
+
+.PHONY : nodo.s
+
+# target to generate assembly for a file
+nodo.cpp.s:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.s
+.PHONY : nodo.cpp.s
+
+socket-server.o: socket-server.cpp.o
+
+.PHONY : socket-server.o
+
+# target to build an object file
+socket-server.cpp.o:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o
+.PHONY : socket-server.cpp.o
+
+socket-server.i: socket-server.cpp.i
+
+.PHONY : socket-server.i
+
+# target to preprocess a source file
+socket-server.cpp.i:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.i
+.PHONY : socket-server.cpp.i
+
+socket-server.s: socket-server.cpp.s
+
+.PHONY : socket-server.s
+
+# target to generate assembly for a file
+socket-server.cpp.s:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.s
+.PHONY : socket-server.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TareaExtraclaseI"
 	@echo "... edit_cache"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
+	@echo "... lista.o"
+	@echo "... lista.i"
+	@echo "... lista.s"
+	@echo "... nodo.o"
+	@echo "... nodo.i"
+	@echo "... nodo.s"
+	@echo "... socket-server.o"
+	@echo "... socket-server.i"
+	@echo "... socket-server.s"
 .PHONY : help
 
 
