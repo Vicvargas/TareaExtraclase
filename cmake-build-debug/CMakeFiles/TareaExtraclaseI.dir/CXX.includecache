@@ -6,9 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/victoria/CLionProjects/TareaExtraclaseI/nodo.cpp
+/home/victoria/CLionProjects/TareaExtraclaseI/abb.h
+iostream
+-
+
+/home/victoria/CLionProjects/TareaExtraclaseI/lista.h
+iostream
+-
+string
+-
 nodo.h
 /home/victoria/CLionProjects/TareaExtraclaseI/nodo.h
+
+/home/victoria/CLionProjects/TareaExtraclaseI/main.cpp
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+stdlib.h
+-
+netinet/in.h
+-
+string.h
+-
+lista.h
+/home/victoria/CLionProjects/TareaExtraclaseI/lista.h
+abb.h
+/home/victoria/CLionProjects/TareaExtraclaseI/abb.h
+sstream
+-
 
 /home/victoria/CLionProjects/TareaExtraclaseI/nodo.h
 iostream

@@ -89,9 +89,12 @@ int main(int argc, char const *argv[])
             list_1->print();
         }
 
-        send(new_socket , hello , strlen(hello) , 0 );
-        printf("Mensaje enviado");
+        if(buffer[0] =='a'){
+            list_1->delete_head();
+            list_1->print();
+        }
 
+        sleep(1);
 
 
 
