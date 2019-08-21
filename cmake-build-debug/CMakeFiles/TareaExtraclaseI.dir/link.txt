@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o  -o TareaExtraclaseI 
+/usr/bin/g++  -g   CMakeFiles/TareaExtraclaseI.dir/main.cpp.o CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o  -o TareaExtraclaseI 

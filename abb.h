@@ -1,12 +1,15 @@
-//
-// Created by victoria on 20/8/19.
-//
+
 
 #ifndef TAREAEXTRACLASEI_ABB_H
 #define TAREAEXTRACLASEI_ABB_H
 #include<iostream>
 
 using namespace std;
+
+/**
+ * Código escrito por Harish R
+ * tomado de https://gist.github.com/harish-r/a7df7ce576dda35c9660
+ */
 
 class ABB
 {
@@ -32,6 +35,12 @@ class ABB
     }
 
     node* insert(int x, node* t)
+    /**
+     *
+     * @param x
+     * @param t
+     * Inserta elemento
+     */
     {
         if(t == NULL)
         {
@@ -67,6 +76,12 @@ class ABB
     }
 
     node* remove(int x, node* t)
+    /**
+     * Elimina elemento seleccionado
+     * @param x
+     * @param t
+     * @return
+     */
     {
         node* temp;
         if(t == NULL)

@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/victoria/CLionProjects/TareaExtraclaseI/lista.cpp
-lista.h
-/home/victoria/CLionProjects/TareaExtraclaseI/lista.h
-
-/home/victoria/CLionProjects/TareaExtraclaseI/lista.h
-iostream
--
-string
--
+/home/victoria/CLionProjects/TareaExtraclaseI/nodo.cpp
 nodo.h
 /home/victoria/CLionProjects/TareaExtraclaseI/nodo.h
 

@@ -1,11 +1,7 @@
-//
-// Created by victoria on 20/8/19.
-//
 
 #include "lista.h"
 using namespace std;
 
-// Constructor por defecto
 
 Lista::Lista()
 {
@@ -16,9 +12,12 @@ Lista::Lista()
 
 }
 
-// Insertar al inicio
 
 void Lista::add_head(int data_)
+/**
+ * Método para agregar elemento al inicio
+ * @param data_
+ */
 {
     Nodo *new_node = new Nodo(data_);
     Nodo *temp = m_head;
@@ -36,22 +35,15 @@ void Lista::add_head(int data_)
     m_num_nodes++;
 }
 
-void delete_position(int pos)
+
+
+
+
+void Lista::delete_head()
+/**
+ * Método para eliminar el primer elemento
+ */
 {
-    node *current=new node;
-    node *previous=new node;
-    current=head;
-    for(int i=1;i<pos;i++)
-    {
-        previous=current;
-        current=current->next;
-    }
-    previous->next=current->next;
-}
-
-
-
-void Lista::delete_head() {
     if(m_head == NULL){
         cout<< "La lista está vacía";
     }
@@ -69,10 +61,10 @@ void Lista::delete_head() {
 
 
 
-
-// Imprimir la Lista
-
 void Lista::print()
+/**
+ * Método para imprimir la lista
+ */
 {
     Nodo *temp = m_head ;
     if (!m_head){

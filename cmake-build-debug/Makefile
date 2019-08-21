@@ -150,6 +150,33 @@ lista.cpp.s:
 	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/lista.cpp.s
 .PHONY : lista.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 nodo.o: nodo.cpp.o
 
 .PHONY : nodo.o
@@ -177,33 +204,6 @@ nodo.cpp.s:
 	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.s
 .PHONY : nodo.cpp.s
 
-socket-server.o: socket-server.cpp.o
-
-.PHONY : socket-server.o
-
-# target to build an object file
-socket-server.cpp.o:
-	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o
-.PHONY : socket-server.cpp.o
-
-socket-server.i: socket-server.cpp.i
-
-.PHONY : socket-server.i
-
-# target to preprocess a source file
-socket-server.cpp.i:
-	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.i
-.PHONY : socket-server.cpp.i
-
-socket-server.s: socket-server.cpp.s
-
-.PHONY : socket-server.s
-
-# target to generate assembly for a file
-socket-server.cpp.s:
-	$(MAKE) -f CMakeFiles/TareaExtraclaseI.dir/build.make CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.s
-.PHONY : socket-server.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +216,12 @@ help:
 	@echo "... lista.o"
 	@echo "... lista.i"
 	@echo "... lista.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... nodo.o"
 	@echo "... nodo.i"
 	@echo "... nodo.s"
-	@echo "... socket-server.o"
-	@echo "... socket-server.i"
-	@echo "... socket-server.s"
 .PHONY : help
 
 

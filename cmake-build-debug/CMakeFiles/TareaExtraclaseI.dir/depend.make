@@ -5,11 +5,11 @@ CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o: ../lista.cpp
 CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o: ../lista.h
 CMakeFiles/TareaExtraclaseI.dir/lista.cpp.o: ../nodo.h
 
+CMakeFiles/TareaExtraclaseI.dir/main.cpp.o: ../abb.h
+CMakeFiles/TareaExtraclaseI.dir/main.cpp.o: ../lista.h
+CMakeFiles/TareaExtraclaseI.dir/main.cpp.o: ../main.cpp
+CMakeFiles/TareaExtraclaseI.dir/main.cpp.o: ../nodo.h
+
 CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o: ../nodo.cpp
 CMakeFiles/TareaExtraclaseI.dir/nodo.cpp.o: ../nodo.h
-
-CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o: ../abb.h
-CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o: ../lista.h
-CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o: ../nodo.h
-CMakeFiles/TareaExtraclaseI.dir/socket-server.cpp.o: ../socket-server.cpp
 

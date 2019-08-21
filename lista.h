@@ -1,6 +1,3 @@
-//
-// Created by victoria on 20/8/19.
-//
 
 #ifndef TAREAEXTRACLASEI_LISTA_H
 #define TAREAEXTRACLASEI_LISTA_H
@@ -22,10 +19,9 @@ public:
     Lista();
     ~Lista();
 
+
     void add_head(int);
-    /**
-     * @param
-     */
+
 
 
     void print();

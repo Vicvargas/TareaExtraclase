@@ -1,6 +1,3 @@
-//
-// Created by victoria on 20/8/19.
-//
 
 #ifndef TAREAEXTRACLASEI_NODO_H
 #define TAREAEXTRACLASEI_NODO_H
@@ -10,6 +7,7 @@
 using namespace std;
 
 class Nodo {
+
 public:
 
     Nodo *next;
@@ -24,7 +22,9 @@ public:
     Nodo();
     Nodo(int);
     void print();
+
     Nodo * getNext();
+
 };
 
 
